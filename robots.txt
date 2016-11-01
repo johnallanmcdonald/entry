@@ -1,0 +1,10 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: /backup/
+Dissalow: /archive/
+Sitemap: http://www.entry.com/sitemap.xml.gz
+Sitemap: http://www.entry.com/sitemap.xml
+Sitemap: http://www.entry.com/ror.xml
+Sitemap: http://www.entry.com/urllist.txt
+Sitemap: http://www.entry.com/sitemap.html

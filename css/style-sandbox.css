@@ -1,0 +1,260 @@
+
+style { -moz-box-sizing: content-box !important;}  
+.navbar-brand{
+    padding: 10px;
+}
+.global {
+    padding-left:0px;
+    padding-right:0px;
+}
+body p {font-size: medium;}
+body {background-color: white;}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-align:left;
+  width: 30%;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 450px;
+    background-color:#bbb;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+	/*min-width: 100%;*/
+	/*height: 400px;*/
+	height: inherit;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-caption {
+    background-color: whitesmoke;
+    opacity: .8;
+    border-radius: 5px;
+    padding:20px;
+    position: absolute;
+    left: 65%;
+    right: 10%;
+    bottom: 20%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6)
+    
+        /*bottom: 60px;
+margin-right: 0px;
+    margin-left: auto;
+    width: 30%;*/ 
+}
+.carousel-caption h1 {
+    color: black;
+}
+.carousel-caption p{
+    color: black;
+}
+.carousel-text{
+    color: black;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remve the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+
+.media-body p {
+    font-size: 1.12em;
+    font-weight: 400;
+    color: #333;
+    opacity: .9;
+    margin-bottom: 60px;
+}
+.media-body h4 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.customer-logobar {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0px;
+    
+}
+.customer-logobar {
+    background-color:#efefef;
+    padding-bottom:0px;}
+.service {
+    background-color: darkorange;
+    padding: 30px 0px 30px 0px
+}
+.media-area {
+    padding: 30px 0px 30px 0px
+}
+/*.spacer {
+    padding-top:30px;
+    padding-bottom: 30px;*/
+}
+.menu-head {
+    font-weight: 500;
+    color: dimgray;
+    border-bottom: 1px solid dimgray;
+}
+#footer {
+    border-top: 1px solid silver;
+    padding-top: 30px;
+}
+.media-body p {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.panel {padding-bottom: 15px;}
+
+
+
+.competencies {
+    margin: 15px auto 15px auto;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding-top: 15px
+}
+/*Hubspot forms*/
+.input.hs-input, textarea.hs-input, select.hs-input, .hs-input.uneditable-input {
+    display: inline-block;
+    width: 210px;
+    height: 25px;
+    padding: 4px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px;
+}
+.well {background-color: #efefef;}
+/*.jumbotron {
+    background-color: darkorange;
+    color: white;
+}*/
+.jumbotron p {
+    font-size: xx-large;
+}
+
+blockquote {
+    border:none;
+    font-style: italic;
+    font-weight: 300;
+}
+
+span.glyphicon-home {
+    font-size: 3.5em;
+    color: rgb(43, 73, 161);
+    border: 7px solid rgb(43, 73, 161);
+    padding: 10px 12px 10px 9px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+span.glyphicon-cloud {
+    font-size: 3.5em;
+    color: rgb(43, 73, 161);
+    border: 7px solid rgb(43, 73, 161);
+    padding: 9px 9px 0px 11px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+span.glyphicon-plus {
+    font-size: 2em;
+    color: rgb(43, 73, 161);
+    padding-top: 30px;
+    text-align: center;
+}
+
+span.glyphicon-time {
+    font-size: 8em;
+    color: #57ad42;
+    padding-top: 30px;
+    text-align: center;
+}
+
+span.glyphicon-ok-sign {
+    font-size: 8em;
+    color: #57ad42;
+    padding-top: 30px;
+    text-align: center;
+}
+div.jumbotron {
+    color: white;
+    background-color: darkorange;
+}
+
+.callout li {
+    padding-top: 10px;
+    font-size: 1.5em; 
+}
+
+.brag-bar {
+    padding: 60px 0px 60px 0px;
+}
+
+.srvcust-bar {
+    padding: 15px 0px 15px 0px;
+    height: 75px;
+}
+iframe {border-top: none;}
+
+blockquote.execquote {
+   position: relative;
+    top: 20%;   
+    left: 30%;
+    width: 250px; 
+}
+dfn {
+    text-decoration: underline;
+    color: gray;
+}
+.banner-bar {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
