@@ -215,7 +215,7 @@
             <div class="container-fluid" style="background-color: #446e9b;">
                 <div class="container" style="padding-bottom: 30px;">
                     <h2 style="text-align: center; color: #fff;">We are ready to help!</h2>
-                    <p class="lead" style="text-align: center; color: #fff;">At Entry Software our team of experts are<br> standing by to answer your questions and invest in your success.</p>
+                    <p class="lead" style="text-align: center; color: #fff;">At Entry Software our team of experts is standing by to answer your questions and invest in your success.</p>
                     <a class="btn btn-lg btn-success" style="display: block; margin-left: auto; margin-right: auto; width: 200px;" href="http://signup.entry.com/contact-us">Contact Us</a>
                 </div>
                
